@@ -1,0 +1,30 @@
+@import "./media";
+@import "./fonts.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    &:active,&:focus{
+        outline: none;
+    }
+}
+body{
+    background: #ffffff;
+    font-family: PTSans;  
+}
+.wrap{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h3{
+    font-family: RussoOne;  
+}
+// <992
+@include media-tablet-horizontal {
+    .wrap{
+        max-width: 790px;
+    }
+}
