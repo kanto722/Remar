@@ -11,20 +11,34 @@
 }
 body{
     background: #ffffff;
-    font-family: PTSans;  
+    font-family: Manrope;  
 }
 .wrap{
-    max-width: 1170px;
-    margin: 0 auto;
-    padding: 0 15px;
+    // max-width: 1170px;
+    margin: 40px 59px;
+    // padding: 0 59px;
 }
 
+h1,
+h2,
 h3{
-    font-family: RussoOne;  
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold; 
 }
 // <992
 @include media-tablet-horizontal {
     .wrap{
         max-width: 790px;
+    }
+}
+@include media-tablet {
+    .wrap {
+        margin: 40px 35px;
+    }
+}
+@include media-mobile-small {
+    .wrap {
+        margin: 40px 11px;
     }
 }

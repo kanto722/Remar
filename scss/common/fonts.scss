@@ -1,6 +1,6 @@
 @import './font';
 
-
+@include font-face('Manrope', '/fonts/static/Manrope', normal, null, eot woff2 woff ttf);
 // @include font-face('PTSans', '../fonts/PTSans/PTSans-Regular', normal, null, eot woff2 woff ttf);
 // @include font-face('RussoOne', '../fonts/RussoOne/RussoOne', normal, null, eot woff2 woff ttf);
 // @include font-face('Rubik', '../fonts/Rubik/Rubik-Regular', normal);

@@ -1,0 +1,32 @@
+@import './variable';
+@import './common/media';
+@import './common/margin';
+
+.slider {
+    // display: flex;
+    // justify-content: center;
+}
+.item {
+    padding: 30px;
+    background-color: greenyellow;
+    min-height: 300px;
+    color: #000;
+    font-size: 16px;
+}
+
+.swiper-container {
+    margin: 0 auto;
+    width: 90%; 
+}
+
+
+.swiper-button-prev,
+.swiper-button-next {
+background-image: url(../../images/svg/active.svg);
+background-repeat: no-repeat;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+display: none;
+}
