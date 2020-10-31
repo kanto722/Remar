@@ -7,4 +7,5 @@ let mySwiper = new Swiper(slider, {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
+    //   loop: true,
   })
