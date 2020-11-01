@@ -1,0 +1,45 @@
+@import './variable';
+@import './common/media';
+@import './common/margin';
+
+
+.promo {
+    margin-top: 40px;
+}
+.promo-container {
+display: flex;
+flex-direction: row;
+padding: 0px 27px;
+
+		&__img {
+            margin-right: 24px;
+		}
+
+		&__text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h2 {
+                font-family: Manrope;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 28px;
+                color: $title;
+            }
+		}
+
+		&__text-info {
+            margin-top: 16px;
+            width: 648px;//перепроверь
+            p {
+                font-family: Manrope;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 20px;
+                color: $title;
+                margin-bottom: 15px;
+            }
+		}
+}

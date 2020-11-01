@@ -7,28 +7,50 @@
     // justify-content: center;
 }
 .item {
-    padding: 30px;
-    background-color: greenyellow;
+    // background-color: greenyellow;
     min-height: 300px;
     color: #000;
     font-size: 16px;
+    margin-right: 24px;
+    img {
+        border-radius: 8px;
+        width: 100%;
+    }
+    h3 {
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+        color:$title;
+        margin-top: 16px;
+    }
 }
 
 .swiper-container {
     margin: 0 auto;
-    width: 90%; 
+    width: 96%; 
 }
 .slider-top {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 59px;
-    margin-bottom: 32px;
+    padding: 0px 30px;
+    h1 {
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 44px;
+        margin-bottom: 32px;
+        color: #000000;
+    }
 }
 .slider-buttons {
     display: flex;
     flex-direction: row;
+    margin-bottom: 42px;
 }
 .swiper-button-next,
 .swiper-button-prev {
@@ -52,4 +74,33 @@ background-position: center;
 .swiper-button-prev::after,
 .swiper-button-next::after {
 display: none;
+}
+
+.slider-bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    &__btn {
+        padding: 8px 16px;
+        background: #FFDD66;
+        border-radius: 4px;
+        
+        a {
+            text-decoration: none;
+            outline: none;
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            color: $title;
+        }
+        a:hover {
+            background: none;
+            color: $title;
+            text-decoration: none;
+            outline: none;
+        }
+    }
 }

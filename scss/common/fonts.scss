@@ -1,6 +1,14 @@
 @import './font';
 
-@include font-face('Manrope', '/fonts/static/Manrope', normal, null, eot woff2 woff ttf);
+@include font-face('Manrope', '/fonts/static/Manrope-Regular', normal);
+@include font-face('Manrope', '/fonts/static/Manrope-Bold', bold);
+@include font-face('Manrope', '/fonts/static/Manrope-ExtraBold', 800);
+@include font-face('Manrope', '/fonts/static/Manrope-ExtraLight', 200);
+@include font-face('Manrope', '/fonts/static/Manrope-Light', 300);
+@include font-face('Manrope', '/fonts/static/Manrope-medium', 500);
+@include font-face('Manrope', '/fonts/static/Manrope-SemiBold', 600);
+
+
 // @include font-face('PTSans', '../fonts/PTSans/PTSans-Regular', normal, null, eot woff2 woff ttf);
 // @include font-face('RussoOne', '../fonts/RussoOne/RussoOne', normal, null, eot woff2 woff ttf);
 // @include font-face('Rubik', '../fonts/Rubik/Rubik-Regular', normal);
