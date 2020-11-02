@@ -19,13 +19,6 @@ body{
     // padding: 0 59px;
 }
 
-h1,
-h2,
-h3{
-    font-family: Manrope;
-    font-style: normal;
-    font-weight: bold; 
-}
 // <992
 @include media-tablet-horizontal {
     .wrap{
