@@ -61,11 +61,17 @@ background-image: url(../images/svg/active.svg);
 background-repeat: no-repeat;
 background-position: center;
 }
+.swiper-button-next:hover {
+    transform: translateX(4px);
+}
 .swiper-button-prev {
     background-image: url(../images/svg/active.svg);
     background-repeat: no-repeat;
     transform: rotate(180deg);
     background-position: center;
+}
+.swiper-button-prev:hover {
+    transform: translateX(4px) rotate(180deg);
 }
 .swiper-button-prev::after,
 .swiper-button-next::after {
@@ -100,6 +106,11 @@ display: none;
             text-decoration: none;
             outline: none;
         }
+    }
+    &__btn:hover {
+        border-radius: 16px;
+        background: #FFE142;
+        transition: background .7s;
     }
 }
 
