@@ -29,16 +29,17 @@ h3{
 // <992
 @include media-tablet-horizontal {
     .wrap{
-        max-width: 790px;
+        // max-width: 790px;
+        margin: 40px 35px;
     }
 }
 @include media-tablet {
     .wrap {
-        margin: 40px 35px;
-    }
-}
-@include media-mobile-small {
-    .wrap {
         margin: 40px 11px;
     }
 }
+// @include media-mobile-small {
+//     .wrap {
+//         margin: 40px 11px;
+//     }
+// }
