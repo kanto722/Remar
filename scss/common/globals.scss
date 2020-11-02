@@ -14,15 +14,12 @@ body{
     font-family: Manrope;  
 }
 .wrap{
-    // max-width: 1170px;
     margin: 40px 59px;
-    // padding: 0 59px;
 }
 
 // <992
 @include media-tablet-horizontal {
     .wrap{
-        // max-width: 790px;
         margin: 40px 35px;
     }
 }
@@ -31,8 +28,3 @@ body{
         margin: 40px 11px;
     }
 }
-// @include media-mobile-small {
-//     .wrap {
-//         margin: 40px 11px;
-//     }
-// }

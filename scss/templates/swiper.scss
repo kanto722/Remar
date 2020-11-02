@@ -3,11 +3,8 @@
 @import './common/margin';
 
 .slider {
-    // display: flex;
-    // justify-content: center;
 }
 .item {
-    // background-color: greenyellow;
     color: #000;
     font-size: 16px;
     margin-right: 24px;
@@ -106,7 +103,6 @@ display: none;
     }
 }
 
-
 //1200px
 @include media-laptop {
     .slider-top {
@@ -151,10 +147,6 @@ display: none;
         margin-bottom: 0;
         margin-top: 16px;
     }
-}
-//480px
-@include media-mobile {
-
 }
 //320px
 @include media-mobile-small {

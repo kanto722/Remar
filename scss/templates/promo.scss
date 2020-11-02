@@ -2,7 +2,6 @@
 @import './common/media';
 @import './common/margin';
 
-
 .promo {
     margin-top: 40px;
 }
@@ -20,7 +19,6 @@ padding: 0px 27px;
                 max-width: 638px;
             }
 		}
-
 		&__text {
             display: flex;
             flex-direction: column;
@@ -49,7 +47,6 @@ padding: 0px 27px;
             }
 		}
 }
-
 @include media-custom (1330px) {
     .promo-container {
         &__text-info {
@@ -105,12 +102,4 @@ padding: 0px 27px;
             max-width: 100%;
         }
     }
-}
-//480px
-@include media-mobile {
-
-}
-//320px
-@include media-mobile-small {
-   
 }
